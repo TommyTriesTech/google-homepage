@@ -1,0 +1,124 @@
+.googleLogo{
+    width: 275px;
+    -webkit-transform: translate(50%, -50%);
+    position: relative;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.search {
+  width: 528px;
+  height: 44px;
+  position: relative
+}
+
+.searchTerm {
+  width: 100%;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.searchButton{
+  position: relative;
+  -webkit-transform: transform(30%, 100%);
+  top: 35px;
+  left: 130px;
+  width: 130px;
+  margin: 4px 2px;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+
+.luckyButton{
+  position: relative;
+  -webkit-transform: transform(30%, 100%);
+  top: 35px;
+  left: 130px;
+  width: 130px;
+  margin: 4px 2px;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+
+ul.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+li a {
+  display: block;
+  color: #585858;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+li {
+  float: right;
+  padding-right: 10px;
+}
+
+
+
+.signInButton{
+  position: relative;
+  top: 5px;
+  margin: 4px 2px;
+  padding: 5px 10px;;
+  background-color: #3366ff;
+  border: 1px solid #3366ff;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.footer{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color:#E8E8E8;
+  color: darkgray;
+  font-size: 8px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+.footerInfo{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color:#E8E8E8;
+  color: darkgray;
+  font-size: 8px;
+}
+ul.navbarInfo{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#E8E8E8;
+  color: darkgray;
+  border: 1px solid #C0C0C0;
+}
